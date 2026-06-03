@@ -1,0 +1,21 @@
+# IDE / editor
+.vscode/
+.idea/
+*.iml
+
+# Claude Code state
+.claude/
+.github/modernize/
+
+# Backend (Java / Maven)
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/.github/modernize/
+
+# Frontend (este repo es solo backend; el frontend va en otro repo aparte)
+frontend/
+
+# Logs y temporales
+*.log
+.DS_Store
+Thumbs.db
